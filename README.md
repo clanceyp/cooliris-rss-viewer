@@ -10,7 +10,7 @@ For this extension to work your site will need;
 
 ### Crossdomain xml
 
-Your crossdomain.xml should be in the root of your website e.g. http://www.mysite.com/crossdomain.xml. and look like this...
+Your crossdomain.xml should be in the root of your website e.g. www.mysite.com/crossdomain.xml. and look like this...
 
 ```xml
 <?xml version="1.0"?>
@@ -21,11 +21,11 @@ Your crossdomain.xml should be in the root of your website e.g. http://www.mysit
 </cross-domain-policy>
 ```
 
-for more information see [http://www.cooliris.com/developer/reference/media-rss/] and [http://www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html]
+for more information see http://www.cooliris.com/developer/reference/media-rss/ and http://www.adobe.com/devnet/articles/crossdomain_policy_file_spec.html
 
 ### Thumbnail RSS
 
-see [http://www.cooliris.com/developer/reference/media-rss/] and the feed validator [http://feedvalidator.org/]
+see http://www.cooliris.com/developer/reference/media-rss/ and the feed validator http://feedvalidator.org/
 
 
 
@@ -34,7 +34,7 @@ see [http://www.cooliris.com/developer/reference/media-rss/] and the feed valida
 
 Please see the express builder at cooliris.com
 
-[http://www.cooliris.com/yoursite/express/]
+http://www.cooliris.com/yoursite/express/
 
 
 ### License
