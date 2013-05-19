@@ -1,17 +1,18 @@
 {
     "name": "Cooliris thumbnail.rss viewer"
-    ,"version": "0.10"
+    ,"version": "0.11"
     ,"manifest_version": 2
     ,"description": "Cooliris for RSS"
     ,"background" : {
         "scripts": ["lib/js/background.js"]
     }
+    ,"options_page": "options.html"
     ,"page_action" : {
-        "default_icon" : "lib/img/cooliris-rss@19.png",
+        "default_icon" : "lib/i/cooliris-rss@19.png",
         "default_title" : "Cooliris thumbnail.rss viewer"
     }
     ,"icons": {
-        "128":"lib/img/cooliris-rss@128.png"
+        "128":"lib/i/cooliris-rss@128.png"
     }
     ,"content_security_policy": "script-src 'self' https://*.cooliris.com; object-src 'self' https://*.cooliris.com"
     ,"content_scripts" : [{
