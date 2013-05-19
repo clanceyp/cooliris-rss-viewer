@@ -85,7 +85,7 @@ describe("Background page", function() {
 
 
 
-    describe("When getting a local store value, ", function() {
+    describe("When getting a setting value, ", function() {
 
         it("getting a value from a key should return the correct fallback value", function() {
 
@@ -96,8 +96,25 @@ describe("Background page", function() {
 
         it("getting the THEME value should return the value of the current theme, not the name", function() {
 
-            expect( coolrss.getSetting("THEME") ).not.toBe('SPECTRUM');
+            expect( coolrss.getSetting("THEME").substring(0,10) ).toBe('background');
 
         });
     });
+
+    describe("When getting a local store value, ", function() {
+
+        it("getting a value from a key should return the correct fallback value", function() {
+
+            expect( coolrss.getLocalStore("i_dont_exist_no_fallback")).toBeNull();
+            expect( coolrss.getLocalStore("TESTVALUE") ).toBe('ABC');
+
+        });
+
+        it("getting the THEME value should return the the name", function() {
+
+            expect( coolrss.getLocalStore("THEME").substring(0,10) ).not.toBe('background');
+
+        });
+    });
+
 });
