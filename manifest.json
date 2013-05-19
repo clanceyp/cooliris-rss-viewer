@@ -1,6 +1,6 @@
 {
     "name": "Cooliris thumbnail.rss viewer"
-    ,"version": "0.11"
+    ,"version": "0.12"
     ,"manifest_version": 2
     ,"description": "Cooliris for RSS"
     ,"background" : {
